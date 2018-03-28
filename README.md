@@ -1,4 +1,4 @@
-# 1 上来就是几个没听说过的名次
+# 1 上来就是几个没听说过的名词
 ## mod.JS  对比 require.js
 modJS是百度fex-team提供的一个轻量级的模块加载器，类似requirejs。
 但modJS并不完全兼容规范amd/cmd，事实上，只支持非常简单的全局方法define(id,factory)。
@@ -25,3 +25,11 @@ Facebook 的 BigPipe 技术，是通过将站点分解为多个 pagelet 小块�
 也就是将传统的 Ajax 请求数据，前端模板渲染数据的模式变化为 Ajax 请求渲染好的页面以及 widget 执行的必要代码和样式。
 这两种方式并非互相取代的关系，而是应该根据使用场景灵活判断。
 
+# 2 几个名词解释 
+widget ：前端组件（包含分页，轮播，弹框等，每个widget可以包含tpl，less， js文件）      ```要求每个组件写js逻辑```
+swig:前端模板引擎,语法简练高效
+router：node路由，处理url路径
+bigpipe：无阻塞的在浏览器端进行渲染，以此来实现大型复杂页面的性能加速
+
+项目涉及到 
+Swig／Node.js／Nodejs／less／git／linux 

@@ -33,3 +33,6 @@ bigpipe：无阻塞的在浏览器端进行渲染，以此来实现大型复杂�
 
 项目涉及到 
 Swig／Node.js／Nodejs／less／git／linux 
+
+＃2安装虚拟机和LNMP学习一下php
+##下载的VMware的的装好虚拟机ubuntu安装

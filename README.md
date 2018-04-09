@@ -34,5 +34,14 @@ bigpipe：无阻塞的在浏览器端进行渲染，以此来实现大型复杂�
 项目涉及到 
 Swig／Node.js／Nodejs／less／git／linux 
 
-＃2安装虚拟机和LNMP学习一下php
+# 3安装虚拟机和LNMP学习一下php
 ##下载的VMware的的装好虚拟机ubuntu安装
+
+# 4 创建ssh提交github
+1.https：比较方便，但是每次提取和推代码都需要输入账号和密码，略显麻烦
+2.ssh：传输前压缩数据，传输效率高，不需要每次提供账号密码
+用户名和邮箱设置 $ git config --global user.name "xxxx"
+$ git config --global user.email "xxxx@163.com"
+
+$ ssh-keygen -t rsa -C "xxxx@163.com" 设置ssh公共key 可以选择重写之前的key 之后ssh -T git@github.com查看是否修改成功
+## 关于github的fork和分支的之后会在补充 

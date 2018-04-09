@@ -45,3 +45,4 @@ $ git config --global user.email "xxxx@163.com"
 
 $ ssh-keygen -t rsa -C "xxxx@163.com" 设置ssh公共key 可以选择重写之前的key 之后ssh -T git@github.com查看是否修改成功
 ## 关于github的fork和分支的之后会在补充 
+# 5  python charm 

@@ -45,4 +45,15 @@ $ git config --global user.email "xxxx@163.com"
 
 $ ssh-keygen -t rsa -C "xxxx@163.com" 设置ssh公共key 可以选择重写之前的key 之后ssh -T git@github.com查看是否修改成功
 ## 关于github的fork和分支的之后会在补充 
-# 5  python charm 
+＃5 PYTHON 
+cahrm的安装 
+获取注册码地址： http://idea.lanyus.com
+输入注册码之后可能会报 this license XXXXXXXX has been cancelled 的错误，解决方法如下：
+终端： sudo vi /etc/hosts
+
+在最后一行加入： 
+
+0.0.0.0 account.jetbrains.com
+ 
+
+保存，退出。重新申请注册码，搞定！
